@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.action.extension" value="do, action"/> 
+    <constant name="struts.multipart.saveDir" value="d:/test"></constant>
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    
+    <constant name="struts.multipart.handler" value="myRequestParser" />
+    
+   <bean type="org.apache.struts2.dispatcher.multipart.MultiPartRequest"
+     name="myRequestParser" class="com.zhang.you.util.RequestParseWrapper"
+     scope="default" optional="true" />
+    
+    <package name="admin" extends="struts-default" namespace="/admin">
+       
+    <action name="usersmanager"  class="com.zhang.you.action.UsersAction">
+    </action>
+   
+      <action name="friendlinkmanager" class="com.zhang.you.action.FriendlinkAction">
+     </action>
+     
+      <action name="jiaodiantumanager" class="com.zhang.you.action.JiaodiantuAction">
+      </action>
+    
+      <action name="xinximanager"   class="com.zhang.you.action.XinxiAction">
+      </action>
+     
+     
+       <action name="lanmumanager" class="com.zhang.you.action.LanmuAction">
+     
+        </action>
+         <action name="sysconfigmanager" class="com.zhang.you.action.SysconfigAction">
+     
+        </action>
+    
+     
+      <action name="noticemanager" class="com.zhang.you.action.NoticeAction">
+     </action>
+   
+     <action name="shangpinmanager"  class="com.zhang.you.action.ShangpinAction">
+     </action>
+     
+      <action name="spcategorymanager" class="com.zhang.you.action.SpcategoryAction">
+      </action>
+    
+      <action name="uploadmanager" class="com.zhang.you.action.UploadAction">
+     </action>
+     
+  
+     <action name="commentmanager" class="com.zhang.you.action.CommentAction">
+     </action>
+     
+     <action name="huiyuanmanager"  class="com.zhang.you.action.HuiyuanAction">
+     </action>
+     
+      <action name="supplyormanager"  class="com.zhang.you.action.SupplyorAction">
+     </action>
+  
+      <action name="indexcolumnsmanager" class="com.zhang.you.action.IndexcolumnsAction">
+     </action>
+     
+      <action name="leavewordmanager" class="com.zhang.you.action.LeavewordAction">
+     </action>
+     
+      <action name="dingdanmanager" class="com.zhang.you.action.DingdanAction">
+     </action>
+     
+      <action name="sitenavmanager" class="com.zhang.you.action.SitenavAction">
+      </action>
+     
+       <action name="albumtypemanager" class="com.zhang.you.action.AlbumtypeAction">
+	     </action>
+	     <action name="albummanager" class="com.zhang.you.action.AlbumAction">
+	     </action>
+	      <action name="albumitemmanager" class="com.zhang.you.action.AlbumitemAction">
+	     </action>
+	             
+    </package>
+
+</struts>
