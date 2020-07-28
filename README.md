@@ -30,6 +30,8 @@
 
 （3）数据库服务器参考配置：MySQL 5.7
 
+（4）开发工具：eclipse
+
 #### 项目运行截图
 
 ![image-20200725213540846](https://gitee.com/YOUYOU-xcu/images/raw/master/mini/dogbaby1.png)
@@ -39,6 +41,14 @@
 
 
 ![image-20200725213817172](https://gitee.com/YOUYOU-xcu/images/raw/master/mini/dogbaby3.png)
+
+![image-20200728161800209](https://gitee.com/YOUYOU-xcu/images/raw/master/mini/image-20200728161800209.png)
+
+
+
+![image-20200728162032045](https://gitee.com/YOUYOU-xcu/images/raw/master/mini/image-20200728162032045.png)
+
+![image-20200728162111006](https://gitee.com/YOUYOU-xcu/images/raw/master/mini/image-20200728162111006.png)
 
 #### 项目总结
 
